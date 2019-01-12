@@ -1,0 +1,14 @@
+participant c as Client
+participant s as API
+participant b as "Broker 1"
+participant l as Listener
+
+l -> s: I'm ready to listen. My name is A1B2. Which broker should I use?
+s -> l: Use Broker 1
+l -> b: I'm listening. Let's keep this connection open.
+
+c -> s: I want to connect to A1B1.ssh.st. Which broker?
+s -> c: Use Broker 1
+c -> b: Connect me to A1B1.ssh.st
+c <-> l: (Data now flows between the client and listener via Broker 1)
+
