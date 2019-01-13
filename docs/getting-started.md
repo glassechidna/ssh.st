@@ -101,6 +101,9 @@ Why not try the same now in a build agent?
 * A listener will keep on listening even after you've `exit`ed your SSH
   session. Run `ssh ssh.st kill shell` to terminate the listener we started
   earlier.
+
 * You're not limited to a single SSH session into the listener - you can open
   multiple at the same time, you can do port-forwarding, you can do remote
   debugging, anything that you'd usually do over SSH.
+
+* Still want to know more? Check out the [How it Works](how-it-works) page.
