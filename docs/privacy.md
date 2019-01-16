@@ -13,11 +13,11 @@ or do not know any better. Regardless of why, **you should never share your priv
 keys with anyone**.
 
 If you wish to share your ssh.st account with someone else (e.g. so they can log
-into one of your listeners), we **strongly** recommend you ask them for their
+into one of your listeners), we **strongly** recommend you ask them for their 
 _public_ key. You can then sign their key with your personal SSH certificate
 authority (generated during `sshst setup`) and specify an expiry time. 
 
-The audit trail maintained by ssh.st and visible in your dashboard shows which 
+The audit trail, maintained by ssh.st and visible in your dashboard, shows which 
 certificates were used to connect to which listeners and when. This, and SSH
 certificates are explained in a bit more detail at [How It Works][how].
 
